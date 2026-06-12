@@ -380,6 +380,7 @@
             this.pic42.Size = new System.Drawing.Size(80, 110);
             this.pic42.TabIndex = 28;
             this.pic42.TabStop = false;
+            this.pic42.Click += new System.EventHandler(this.picCasilla_Click);
             // 
             // pic43
             // 

@@ -144,7 +144,14 @@ namespace LoteriaMexicana.Forms
                 MessageBox.Show("Error al cargar la ficha:\n" + ex.Message);
             }
         }
+        private void AgregarMensajeChat(string mensaje)
+        {
+            if (lstChat == null)
+                return;
 
+            lstChat.Items.Add(mensaje);
+            lstChat.TopIndex = lstChat.Items.Count - 1;
+        }
         private void ReproducirAudioCarta(Carta carta)
         {
             if (carta == null)
@@ -801,6 +808,19 @@ namespace LoteriaMexicana.Forms
 
                     TerminarJuego();
                 }
+                else if (mensaje.StartsWith("CHAT|"))
+                {
+                    string contenido = mensaje.Substring(5);
+                    int separador = contenido.IndexOf('|');
+
+                    if (separador >= 0)
+                    {
+                        string nombre = contenido.Substring(0, separador);
+                        string texto = contenido.Substring(separador + 1);
+
+                        AgregarMensajeChat($"{nombre}: {texto}");
+                    }
+                }
             });
         }
 
@@ -947,6 +967,25 @@ namespace LoteriaMexicana.Forms
             {
                 timerAuto.Interval = (int)(nudVelocidad.Value * 1000);
             }
+        }
+
+        private void btnEnviarChat_Click(object sender, EventArgs e)
+        {
+            string texto = txtMensajeChat.Text.Trim();
+
+            if (texto == "")
+                return;
+
+            string mensajeRed = $"CHAT|{_nombreJugador}|{texto}";
+
+            AgregarMensajeChat($"{_nombreJugador}: {texto}");
+            txtMensajeChat.Clear();
+
+            if (_soyServidor && _servidor != null)
+                _servidor.Transmitir(mensajeRed);
+
+            if (_soyCliente && _cliente != null)
+                _cliente.Enviar(mensajeRed);
         }
     }
 }

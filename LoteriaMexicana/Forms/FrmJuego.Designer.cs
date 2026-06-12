@@ -40,6 +40,9 @@
             this.btnDesconectarRed = new System.Windows.Forms.Button();
             this.lblTituloHistorial = new System.Windows.Forms.Label();
             this.lstHistorial = new System.Windows.Forms.ListBox();
+            this.lstChat = new System.Windows.Forms.ListBox();
+            this.txtMensajeChat = new System.Windows.Forms.TextBox();
+            this.btnEnviarChat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCartaActual)).BeginInit();
             this.grpModoVictoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudVelocidad)).BeginInit();
@@ -277,7 +280,7 @@
             // 
             // btnCrearPartida
             // 
-            this.btnCrearPartida.Location = new System.Drawing.Point(867, 507);
+            this.btnCrearPartida.Location = new System.Drawing.Point(867, 471);
             this.btnCrearPartida.Name = "btnCrearPartida";
             this.btnCrearPartida.Size = new System.Drawing.Size(120, 29);
             this.btnCrearPartida.TabIndex = 10;
@@ -287,7 +290,7 @@
             // 
             // btnUnirsePartida
             // 
-            this.btnUnirsePartida.Location = new System.Drawing.Point(1067, 509);
+            this.btnUnirsePartida.Location = new System.Drawing.Point(1067, 473);
             this.btnUnirsePartida.Name = "btnUnirsePartida";
             this.btnUnirsePartida.Size = new System.Drawing.Size(120, 27);
             this.btnUnirsePartida.TabIndex = 11;
@@ -298,7 +301,7 @@
             // btnDesconectarRed
             // 
             this.btnDesconectarRed.Enabled = false;
-            this.btnDesconectarRed.Location = new System.Drawing.Point(935, 542);
+            this.btnDesconectarRed.Location = new System.Drawing.Point(935, 506);
             this.btnDesconectarRed.Name = "btnDesconectarRed";
             this.btnDesconectarRed.Size = new System.Drawing.Size(175, 36);
             this.btnDesconectarRed.TabIndex = 12;
@@ -326,12 +329,41 @@
             this.lstHistorial.Size = new System.Drawing.Size(455, 84);
             this.lstHistorial.TabIndex = 14;
             // 
+            // lstChat
+            // 
+            this.lstChat.FormattingEnabled = true;
+            this.lstChat.ItemHeight = 20;
+            this.lstChat.Location = new System.Drawing.Point(884, 562);
+            this.lstChat.Name = "lstChat";
+            this.lstChat.Size = new System.Drawing.Size(303, 84);
+            this.lstChat.TabIndex = 15;
+            // 
+            // txtMensajeChat
+            // 
+            this.txtMensajeChat.Location = new System.Drawing.Point(887, 589);
+            this.txtMensajeChat.Name = "txtMensajeChat";
+            this.txtMensajeChat.Size = new System.Drawing.Size(100, 26);
+            this.txtMensajeChat.TabIndex = 16;
+            // 
+            // btnEnviarChat
+            // 
+            this.btnEnviarChat.Location = new System.Drawing.Point(1215, 580);
+            this.btnEnviarChat.Name = "btnEnviarChat";
+            this.btnEnviarChat.Size = new System.Drawing.Size(92, 35);
+            this.btnEnviarChat.TabIndex = 17;
+            this.btnEnviarChat.Text = "Enviar";
+            this.btnEnviarChat.UseVisualStyleBackColor = true;
+            this.btnEnviarChat.Click += new System.EventHandler(this.btnEnviarChat_Click);
+            // 
             // FrmJuego
             // 
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::LoteriaMexicana.Properties.Resources.juego;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1337, 721);
+            this.Controls.Add(this.btnEnviarChat);
+            this.Controls.Add(this.txtMensajeChat);
+            this.Controls.Add(this.lstChat);
             this.Controls.Add(this.lstHistorial);
             this.Controls.Add(this.lblTituloHistorial);
             this.Controls.Add(this.btnDesconectarRed);
@@ -384,5 +416,8 @@
         private System.Windows.Forms.Label lblTituloHistorial;
         private System.Windows.Forms.Button btnCrearCarton;
         private System.Windows.Forms.ListBox lstHistorial;
+        private System.Windows.Forms.ListBox lstChat;
+        private System.Windows.Forms.TextBox txtMensajeChat;
+        private System.Windows.Forms.Button btnEnviarChat;
     }
 }

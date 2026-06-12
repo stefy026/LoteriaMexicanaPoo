@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19138BF5-F1C3-401C-A1B3-35EF6686807A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LoteriaMexicana</RootNamespace>
+    <AssemblyName>LoteriaMexicana</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FrmInstrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInstrucciones.Designer.cs">
+      <DependentUpon>FrmInstrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmJuego.Designer.cs">
+      <DependentUpon>FrmJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Baraja.cs" />
+    <Compile Include="Models\Carta.cs" />
+    <Compile Include="Forms\FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartonJugador.cs" />
+    <Compile Include="Network\ClienteLoteria.cs" />
+    <Compile Include="Network\ServidorLoteria.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmInstrucciones.resx">
+      <DependentUpon>FrmInstrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmJuego.resx">
+      <DependentUpon>FrmJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\instrucciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\alacran.jpeg" />
+    <Content Include="Resources\Images\apache.jpeg" />
+    <Content Include="Resources\Images\araña.jpeg" />
+    <Content Include="Resources\Images\arbol.jpeg" />
+    <Content Include="Resources\Images\arpa.jpeg" />
+    <Content Include="Resources\Images\bandera.jpeg" />
+    <Content Include="Resources\Images\bandolon.jpeg" />
+    <Content Include="Resources\Images\barril.jpeg" />
+    <Content Include="Resources\Images\borracho.jpeg" />
+    <Content Include="Resources\Images\bota.jpeg" />
+    <Content Include="Resources\Images\botella.jpeg" />
+    <Content Include="Resources\Images\calavera.jpeg" />
+    <Content Include="Resources\Images\camaron.jpeg" />
+    <Content Include="Resources\Images\campana.jpeg" />
+    <Content Include="Resources\Images\cantarito.jpeg" />
+    <Content Include="Resources\Images\catrin.jpeg" />
+    <Content Include="Resources\Images\cazo.jpeg" />
+    <Content Include="Resources\Images\chalupa.jpeg" />
+    <Content Include="Resources\Images\corazon.jpeg" />
+    <Content Include="Resources\Images\corona.jpeg" />
+    <Content Include="Resources\Images\cotorro.jpeg" />
+    <Content Include="Resources\Images\dama.jpeg" />
+    <Content Include="Resources\Images\diablito.jpeg" />
+    <Content Include="Resources\Images\escalera.jpeg" />
+    <Content Include="Resources\Images\estrella.jpeg" />
+    <Content Include="Resources\Images\ficha.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\gallo.jpeg" />
+    <Content Include="Resources\Images\garza.jpeg" />
+    <Content Include="Resources\Images\gorrito.jpeg" />
+    <Content Include="Resources\Images\jaras.jpeg" />
+    <Content Include="Resources\Images\juego.png" />
+    <Content Include="Resources\Images\luna.jpeg" />
+    <Content Include="Resources\Images\maceta.jpeg" />
+    <Content Include="Resources\Images\mano.jpeg" />
+    <Content Include="Resources\Images\melon.jpeg" />
+    <Content Include="Resources\Images\muerte.jpeg" />
+    <Content Include="Resources\Images\mundo.jpeg" />
+    <Content Include="Resources\Images\musico.jpeg" />
+    <Content Include="Resources\Images\negrito.jpeg" />
+    <Content Include="Resources\Images\nopal.jpeg" />
+    <Content Include="Resources\Images\pajaro.jpeg" />
+    <Content Include="Resources\Images\palma.jpeg" />
+    <Content Include="Resources\Images\paraguas.jpeg" />
+    <Content Include="Resources\Images\pera.jpeg" />
+    <Content Include="Resources\Images\pescado.jpeg" />
+    <Content Include="Resources\Images\pino.jpeg" />
+    <Content Include="Resources\Images\rana.jpeg" />
+    <Content Include="Resources\Images\rosa.jpeg" />
+    <Content Include="Resources\Images\sandia.jpeg" />
+    <Content Include="Resources\Images\sirena.jpeg" />
+    <Content Include="Resources\Images\sol.jpeg" />
+    <Content Include="Resources\Images\soldado.jpeg" />
+    <Content Include="Resources\Images\tambor.jpeg" />
+    <Content Include="Resources\Images\valiente.jpeg" />
+    <Content Include="Resources\Images\venado.jpeg" />
+    <Content Include="Resources\Images\violoncello.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

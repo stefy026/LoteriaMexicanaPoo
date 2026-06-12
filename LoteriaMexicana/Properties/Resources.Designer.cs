@@ -273,6 +273,16 @@ namespace LoteriaMexicana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CrearCarton {
+            get {
+                object obj = ResourceManager.GetObject("CrearCarton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dama {
             get {
                 object obj = ResourceManager.GetObject("dama", resourceCulture);

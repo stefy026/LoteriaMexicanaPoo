@@ -50,6 +50,19 @@ namespace LoteriaMexicana.Models
             ReiniciarMarcadas();
         }
 
+        public void CargarCartas(Carta[,] nuevasCartas)
+        {
+            for (int fila = 0; fila < FILAS; fila++)
+            {
+                for (int col = 0; col < COLUMNAS; col++)
+                {
+                    Cartas[fila, col] = nuevasCartas[fila, col];
+                }
+            }
+
+            ReiniciarMarcadas();
+        }
+
         public void MarcarCarta(int fila, int col)
         {
             Marcadas[fila, col] = true;

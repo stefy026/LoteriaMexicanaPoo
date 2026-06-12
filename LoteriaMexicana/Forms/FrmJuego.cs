@@ -113,7 +113,7 @@ namespace LoteriaMexicana.Forms
 
             AplicarModoRed();
         }
-
+        //ficha
         private void CargarImagenFicha()
         {
             try

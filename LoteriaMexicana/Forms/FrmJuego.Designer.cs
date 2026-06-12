@@ -323,7 +323,7 @@
             this.lstHistorial.ItemHeight = 20;
             this.lstHistorial.Location = new System.Drawing.Point(304, 562);
             this.lstHistorial.Name = "lstHistorial";
-            this.lstHistorial.Size = new System.Drawing.Size(455, 64);
+            this.lstHistorial.Size = new System.Drawing.Size(455, 84);
             this.lstHistorial.TabIndex = 14;
             // 
             // FrmJuego

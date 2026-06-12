@@ -62,7 +62,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic34)).BeginInit();
             this.SuspendLayout();
-
+            // 
+            // lstCartas
+            // 
             this.lstCartas.FormattingEnabled = true;
             this.lstCartas.ItemHeight = 20;
             this.lstCartas.Location = new System.Drawing.Point(24, 47);
@@ -70,7 +72,9 @@
             this.lstCartas.Size = new System.Drawing.Size(220, 404);
             this.lstCartas.TabIndex = 0;
             this.lstCartas.SelectedIndexChanged += new System.EventHandler(this.lstCartas_SelectedIndexChanged);
-
+            // 
+            // picPreviewCarta
+            // 
             this.picPreviewCarta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picPreviewCarta.Location = new System.Drawing.Point(270, 47);
             this.picPreviewCarta.Name = "picPreviewCarta";
@@ -78,7 +82,9 @@
             this.picPreviewCarta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPreviewCarta.TabIndex = 1;
             this.picPreviewCarta.TabStop = false;
-
+            // 
+            // chkPermitirDobles
+            // 
             this.chkPermitirDobles.AutoSize = true;
             this.chkPermitirDobles.Location = new System.Drawing.Point(270, 250);
             this.chkPermitirDobles.Name = "chkPermitirDobles";
@@ -87,7 +93,9 @@
             this.chkPermitirDobles.Text = "Permitir cartas repetidas";
             this.chkPermitirDobles.UseVisualStyleBackColor = true;
             this.chkPermitirDobles.CheckedChanged += new System.EventHandler(this.chkPermitirDobles_CheckedChanged);
-
+            // 
+            // btnAceptar
+            // 
             this.btnAceptar.Location = new System.Drawing.Point(270, 320);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(120, 35);
@@ -95,7 +103,9 @@
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
-
+            // 
+            // btnLimpiar
+            // 
             this.btnLimpiar.Location = new System.Drawing.Point(270, 365);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(120, 35);
@@ -103,7 +113,9 @@
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-
+            // 
+            // btnCancelar
+            // 
             this.btnCancelar.Location = new System.Drawing.Point(270, 410);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(120, 35);
@@ -111,7 +123,9 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-
+            // 
+            // pic00
+            // 
             this.pic00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic00.Location = new System.Drawing.Point(430, 47);
             this.pic00.Name = "pic00";
@@ -120,7 +134,9 @@
             this.pic00.TabIndex = 6;
             this.pic00.TabStop = false;
             this.pic00.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic01
+            // 
             this.pic01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic01.Location = new System.Drawing.Point(520, 47);
             this.pic01.Name = "pic01";
@@ -129,7 +145,9 @@
             this.pic01.TabIndex = 7;
             this.pic01.TabStop = false;
             this.pic01.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic02
+            // 
             this.pic02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic02.Location = new System.Drawing.Point(610, 47);
             this.pic02.Name = "pic02";
@@ -138,7 +156,9 @@
             this.pic02.TabIndex = 8;
             this.pic02.TabStop = false;
             this.pic02.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic03
+            // 
             this.pic03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic03.Location = new System.Drawing.Point(700, 47);
             this.pic03.Name = "pic03";
@@ -147,7 +167,9 @@
             this.pic03.TabIndex = 9;
             this.pic03.TabStop = false;
             this.pic03.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic04
+            // 
             this.pic04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic04.Location = new System.Drawing.Point(790, 47);
             this.pic04.Name = "pic04";
@@ -156,7 +178,9 @@
             this.pic04.TabIndex = 10;
             this.pic04.TabStop = false;
             this.pic04.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic10
+            // 
             this.pic10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic10.Location = new System.Drawing.Point(430, 170);
             this.pic10.Name = "pic10";
@@ -165,7 +189,9 @@
             this.pic10.TabIndex = 11;
             this.pic10.TabStop = false;
             this.pic10.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic11
+            // 
             this.pic11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic11.Location = new System.Drawing.Point(520, 170);
             this.pic11.Name = "pic11";
@@ -174,7 +200,9 @@
             this.pic11.TabIndex = 12;
             this.pic11.TabStop = false;
             this.pic11.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic12
+            // 
             this.pic12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic12.Location = new System.Drawing.Point(610, 170);
             this.pic12.Name = "pic12";
@@ -183,7 +211,9 @@
             this.pic12.TabIndex = 13;
             this.pic12.TabStop = false;
             this.pic12.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic13
+            // 
             this.pic13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic13.Location = new System.Drawing.Point(700, 170);
             this.pic13.Name = "pic13";
@@ -192,7 +222,9 @@
             this.pic13.TabIndex = 14;
             this.pic13.TabStop = false;
             this.pic13.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic14
+            // 
             this.pic14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic14.Location = new System.Drawing.Point(790, 170);
             this.pic14.Name = "pic14";
@@ -201,7 +233,9 @@
             this.pic14.TabIndex = 15;
             this.pic14.TabStop = false;
             this.pic14.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic20
+            // 
             this.pic20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic20.Location = new System.Drawing.Point(430, 293);
             this.pic20.Name = "pic20";
@@ -210,7 +244,9 @@
             this.pic20.TabIndex = 16;
             this.pic20.TabStop = false;
             this.pic20.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic21
+            // 
             this.pic21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic21.Location = new System.Drawing.Point(520, 293);
             this.pic21.Name = "pic21";
@@ -219,7 +255,9 @@
             this.pic21.TabIndex = 17;
             this.pic21.TabStop = false;
             this.pic21.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic22
+            // 
             this.pic22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic22.Location = new System.Drawing.Point(610, 293);
             this.pic22.Name = "pic22";
@@ -228,7 +266,9 @@
             this.pic22.TabIndex = 18;
             this.pic22.TabStop = false;
             this.pic22.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic23
+            // 
             this.pic23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic23.Location = new System.Drawing.Point(700, 293);
             this.pic23.Name = "pic23";
@@ -237,7 +277,9 @@
             this.pic23.TabIndex = 19;
             this.pic23.TabStop = false;
             this.pic23.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic24
+            // 
             this.pic24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic24.Location = new System.Drawing.Point(790, 293);
             this.pic24.Name = "pic24";
@@ -246,7 +288,9 @@
             this.pic24.TabIndex = 20;
             this.pic24.TabStop = false;
             this.pic24.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic30
+            // 
             this.pic30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic30.Location = new System.Drawing.Point(430, 416);
             this.pic30.Name = "pic30";
@@ -255,7 +299,9 @@
             this.pic30.TabIndex = 21;
             this.pic30.TabStop = false;
             this.pic30.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic31
+            // 
             this.pic31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic31.Location = new System.Drawing.Point(520, 416);
             this.pic31.Name = "pic31";
@@ -264,7 +310,9 @@
             this.pic31.TabIndex = 22;
             this.pic31.TabStop = false;
             this.pic31.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic32
+            // 
             this.pic32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic32.Location = new System.Drawing.Point(610, 416);
             this.pic32.Name = "pic32";
@@ -273,7 +321,9 @@
             this.pic32.TabIndex = 23;
             this.pic32.TabStop = false;
             this.pic32.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic33
+            // 
             this.pic33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic33.Location = new System.Drawing.Point(700, 416);
             this.pic33.Name = "pic33";
@@ -282,7 +332,9 @@
             this.pic33.TabIndex = 24;
             this.pic33.TabStop = false;
             this.pic33.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // pic34
+            // 
             this.pic34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic34.Location = new System.Drawing.Point(790, 416);
             this.pic34.Name = "pic34";
@@ -291,9 +343,12 @@
             this.pic34.TabIndex = 25;
             this.pic34.TabStop = false;
             this.pic34.Click += new System.EventHandler(this.picCasilla_Click);
-
+            // 
+            // FrmCrearCarton
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LoteriaMexicana.Properties.Resources.CrearCarton;
             this.ClientSize = new System.Drawing.Size(910, 560);
             this.Controls.Add(this.pic34);
             this.Controls.Add(this.pic33);
@@ -347,6 +402,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic34)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.ListBox lstCartas;

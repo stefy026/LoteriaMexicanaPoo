@@ -233,5 +233,10 @@ namespace LoteriaMexicana.Forms
                 chkPermitirDobles.Checked = true;
             }
         }
+
+        private void FrmCrearCarton_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

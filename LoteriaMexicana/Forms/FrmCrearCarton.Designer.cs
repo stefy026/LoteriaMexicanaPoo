@@ -379,6 +379,7 @@
             this.Name = "FrmCrearCarton";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Crea tu cartón";
+            this.Load += new System.EventHandler(this.FrmCrearCarton_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picPreviewCarta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic00)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic01)).EndInit();

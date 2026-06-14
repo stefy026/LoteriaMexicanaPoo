@@ -20,6 +20,7 @@
             this.lblContador = new System.Windows.Forms.Label();
             this.panelCarton = new System.Windows.Forms.Panel();
             this.btnSacarCarta = new System.Windows.Forms.Button();
+            this.btnBuenas = new System.Windows.Forms.Button();
             this.btnAuto = new System.Windows.Forms.Button();
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
@@ -90,6 +91,16 @@
             this.btnSacarCarta.Text = "Sacar Carta";
             this.btnSacarCarta.UseVisualStyleBackColor = true;
             this.btnSacarCarta.Click += new System.EventHandler(this.btnSacarCarta_Click);
+            // 
+            // btnBuenas
+            // 
+            this.btnBuenas.Location = new System.Drawing.Point(81, 351);
+            this.btnBuenas.Name = "btnBuenas";
+            this.btnBuenas.Size = new System.Drawing.Size(120, 32);
+            this.btnBuenas.TabIndex = 18;
+            this.btnBuenas.Text = "¡Buenas!";
+            this.btnBuenas.UseVisualStyleBackColor = true;
+            this.btnBuenas.Click += new System.EventHandler(this.btnBuenas_Click);
             // 
             // btnAuto
             // 
@@ -375,6 +386,7 @@
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.btnAuto);
+            this.Controls.Add(this.btnBuenas);
             this.Controls.Add(this.btnSacarCarta);
             this.Controls.Add(this.panelCarton);
             this.Controls.Add(this.lblContador);
@@ -396,6 +408,7 @@
         private System.Windows.Forms.Label lblContador;
         private System.Windows.Forms.Panel panelCarton;
         private System.Windows.Forms.Button btnSacarCarta;
+        private System.Windows.Forms.Button btnBuenas;
         private System.Windows.Forms.Button btnAuto;
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Button btnMenu;

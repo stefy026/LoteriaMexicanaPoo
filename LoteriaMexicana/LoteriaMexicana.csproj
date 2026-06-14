@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FrmConfiguracionPartida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmConfiguracionPartida.Designer.cs">
+      <DependentUpon>FrmConfiguracionPartida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmCrearCarton.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,10 +79,14 @@
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CartonJugador.cs" />
+    <Compile Include="Models\OpcionesVictoria.cs" />
     <Compile Include="Network\ClienteLoteria.cs" />
     <Compile Include="Network\ServidorLoteria.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrmConfiguracionPartida.resx">
+      <DependentUpon>FrmConfiguracionPartida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmCrearCarton.resx">
       <DependentUpon>FrmCrearCarton.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +129,7 @@
     <None Include="Resources\Images\instrucciones.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Images\configuracion.png" />
     <Content Include="Resources\Sounds\carta_1.mpeg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

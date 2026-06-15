@@ -55,10 +55,9 @@
             // 
             // picCartaActual
             // 
-            this.picCartaActual.Location = new System.Drawing.Point(62, 100);
-            this.picCartaActual.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.picCartaActual.Location = new System.Drawing.Point(55, 80);
             this.picCartaActual.Name = "picCartaActual";
-            this.picCartaActual.Size = new System.Drawing.Size(202, 238);
+            this.picCartaActual.Size = new System.Drawing.Size(180, 190);
             this.picCartaActual.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCartaActual.TabIndex = 0;
             this.picCartaActual.TabStop = false;
@@ -69,7 +68,7 @@
             this.lblContador.BackColor = System.Drawing.Color.Transparent;
             this.lblContador.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
             this.lblContador.ForeColor = System.Drawing.Color.White;
-            this.lblContador.Location = new System.Drawing.Point(101, 344);
+            this.lblContador.Location = new System.Drawing.Point(90, 275);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(67, 19);
             this.lblContador.TabIndex = 1;
@@ -78,18 +77,16 @@
             // panelCarton
             // 
             this.panelCarton.BackColor = System.Drawing.Color.Transparent;
-            this.panelCarton.Location = new System.Drawing.Point(326, 56);
-            this.panelCarton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelCarton.Location = new System.Drawing.Point(290, 45);
             this.panelCarton.Name = "panelCarton";
-            this.panelCarton.Size = new System.Drawing.Size(922, 625);
+            this.panelCarton.Size = new System.Drawing.Size(820, 500);
             this.panelCarton.TabIndex = 3;
             // 
             // btnSacarCarta
             // 
-            this.btnSacarCarta.Location = new System.Drawing.Point(79, 400);
-            this.btnSacarCarta.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSacarCarta.Location = new System.Drawing.Point(70, 320);
             this.btnSacarCarta.Name = "btnSacarCarta";
-            this.btnSacarCarta.Size = new System.Drawing.Size(146, 44);
+            this.btnSacarCarta.Size = new System.Drawing.Size(130, 35);
             this.btnSacarCarta.TabIndex = 4;
             this.btnSacarCarta.Text = "Sacar Carta";
             this.btnSacarCarta.UseVisualStyleBackColor = true;
@@ -97,9 +94,10 @@
             // 
             // btnBuenas
             // 
-            this.btnBuenas.Location = new System.Drawing.Point(81, 351);
+            this.btnBuenas.Location = new System.Drawing.Point(72, 281);
+            this.btnBuenas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuenas.Name = "btnBuenas";
-            this.btnBuenas.Size = new System.Drawing.Size(120, 32);
+            this.btnBuenas.Size = new System.Drawing.Size(107, 26);
             this.btnBuenas.TabIndex = 18;
             this.btnBuenas.Text = "¡Buenas!";
             this.btnBuenas.UseVisualStyleBackColor = true;
@@ -107,10 +105,9 @@
             // 
             // btnAuto
             // 
-            this.btnAuto.Location = new System.Drawing.Point(79, 569);
-            this.btnAuto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAuto.Location = new System.Drawing.Point(70, 455);
             this.btnAuto.Name = "btnAuto";
-            this.btnAuto.Size = new System.Drawing.Size(146, 44);
+            this.btnAuto.Size = new System.Drawing.Size(130, 35);
             this.btnAuto.TabIndex = 7;
             this.btnAuto.Text = "Auto: OFF";
             this.btnAuto.UseVisualStyleBackColor = true;
@@ -118,10 +115,9 @@
             // 
             // btnReiniciar
             // 
-            this.btnReiniciar.Location = new System.Drawing.Point(79, 512);
-            this.btnReiniciar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnReiniciar.Location = new System.Drawing.Point(70, 410);
             this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(146, 44);
+            this.btnReiniciar.Size = new System.Drawing.Size(130, 35);
             this.btnReiniciar.TabIndex = 6;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
@@ -129,10 +125,9 @@
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(79, 625);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMenu.Location = new System.Drawing.Point(70, 500);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(146, 44);
+            this.btnMenu.Size = new System.Drawing.Size(130, 35);
             this.btnMenu.TabIndex = 8;
             this.btnMenu.Text = "Menú";
             this.btnMenu.UseVisualStyleBackColor = true;
@@ -144,7 +139,7 @@
             this.lblCartaActual.BackColor = System.Drawing.Color.Transparent;
             this.lblCartaActual.Font = new System.Drawing.Font("Palatino Linotype", 10F, System.Drawing.FontStyle.Bold);
             this.lblCartaActual.ForeColor = System.Drawing.Color.White;
-            this.lblCartaActual.Location = new System.Drawing.Point(90, 56);
+            this.lblCartaActual.Location = new System.Drawing.Point(80, 45);
             this.lblCartaActual.Name = "lblCartaActual";
             this.lblCartaActual.Size = new System.Drawing.Size(107, 23);
             this.lblCartaActual.TabIndex = 7;
@@ -156,11 +151,9 @@
             this.grpModoVictoria.Controls.Add(this.chkVertical);
             this.grpModoVictoria.Controls.Add(this.chkDiagonal);
             this.grpModoVictoria.Controls.Add(this.chkLleno);
-            this.grpModoVictoria.Location = new System.Drawing.Point(1294, 750);
-            this.grpModoVictoria.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grpModoVictoria.Location = new System.Drawing.Point(1150, 679);
             this.grpModoVictoria.Name = "grpModoVictoria";
-            this.grpModoVictoria.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.grpModoVictoria.Size = new System.Drawing.Size(11, 12);
+            this.grpModoVictoria.Size = new System.Drawing.Size(10, 10);
             this.grpModoVictoria.TabIndex = 11;
             this.grpModoVictoria.TabStop = false;
             this.grpModoVictoria.Text = "Modo de victoria";
@@ -169,8 +162,7 @@
             // chkHorizontal
             // 
             this.chkHorizontal.AutoSize = true;
-            this.chkHorizontal.Location = new System.Drawing.Point(11, 25);
-            this.chkHorizontal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkHorizontal.Location = new System.Drawing.Point(10, 20);
             this.chkHorizontal.Name = "chkHorizontal";
             this.chkHorizontal.Size = new System.Drawing.Size(122, 20);
             this.chkHorizontal.TabIndex = 0;
@@ -180,8 +172,7 @@
             // chkVertical
             // 
             this.chkVertical.AutoSize = true;
-            this.chkVertical.Location = new System.Drawing.Point(11, 56);
-            this.chkVertical.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkVertical.Location = new System.Drawing.Point(10, 45);
             this.chkVertical.Name = "chkVertical";
             this.chkVertical.Size = new System.Drawing.Size(108, 20);
             this.chkVertical.TabIndex = 1;
@@ -191,8 +182,7 @@
             // chkDiagonal
             // 
             this.chkDiagonal.AutoSize = true;
-            this.chkDiagonal.Location = new System.Drawing.Point(11, 88);
-            this.chkDiagonal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkDiagonal.Location = new System.Drawing.Point(10, 70);
             this.chkDiagonal.Name = "chkDiagonal";
             this.chkDiagonal.Size = new System.Drawing.Size(84, 20);
             this.chkDiagonal.TabIndex = 2;
@@ -202,8 +192,7 @@
             // chkLleno
             // 
             this.chkLleno.AutoSize = true;
-            this.chkLleno.Location = new System.Drawing.Point(11, 119);
-            this.chkLleno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkLleno.Location = new System.Drawing.Point(10, 95);
             this.chkLleno.Name = "chkLleno";
             this.chkLleno.Size = new System.Drawing.Size(100, 20);
             this.chkLleno.TabIndex = 3;
@@ -216,16 +205,15 @@
             this.lblVelocidad.BackColor = System.Drawing.Color.Transparent;
             this.lblVelocidad.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblVelocidad.ForeColor = System.Drawing.Color.White;
-            this.lblVelocidad.Location = new System.Drawing.Point(1318, 68);
+            this.lblVelocidad.Location = new System.Drawing.Point(1172, 54);
             this.lblVelocidad.Name = "lblVelocidad";
-            this.lblVelocidad.Size = new System.Drawing.Size(106, 16);
+            this.lblVelocidad.Size = new System.Drawing.Size(120, 20);
             this.lblVelocidad.TabIndex = 4;
             this.lblVelocidad.Text = "Velocidad (seg):";
             // 
             // nudVelocidad
             // 
-            this.nudVelocidad.Location = new System.Drawing.Point(1323, 100);
-            this.nudVelocidad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nudVelocidad.Location = new System.Drawing.Point(1176, 80);
             this.nudVelocidad.Maximum = new decimal(new int[] {
             10,
             0,
@@ -237,7 +225,7 @@
             0,
             0});
             this.nudVelocidad.Name = "nudVelocidad";
-            this.nudVelocidad.Size = new System.Drawing.Size(120, 22);
+            this.nudVelocidad.Size = new System.Drawing.Size(107, 22);
             this.nudVelocidad.TabIndex = 5;
             this.nudVelocidad.Value = new decimal(new int[] {
             3,
@@ -248,10 +236,9 @@
             // 
             // btnCrearCarton
             // 
-            this.btnCrearCarton.Location = new System.Drawing.Point(1271, 167);
-            this.btnCrearCarton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCrearCarton.Location = new System.Drawing.Point(1130, 134);
             this.btnCrearCarton.Name = "btnCrearCarton";
-            this.btnCrearCarton.Size = new System.Drawing.Size(146, 44);
+            this.btnCrearCarton.Size = new System.Drawing.Size(130, 35);
             this.btnCrearCarton.TabIndex = 12;
             this.btnCrearCarton.Text = "Crear cartón";
             this.btnCrearCarton.UseVisualStyleBackColor = true;
@@ -260,10 +247,9 @@
             // 
             // btnCargarCarton
             // 
-            this.btnCargarCarton.Location = new System.Drawing.Point(1271, 219);
-            this.btnCargarCarton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCargarCarton.Location = new System.Drawing.Point(1130, 175);
             this.btnCargarCarton.Name = "btnCargarCarton";
-            this.btnCargarCarton.Size = new System.Drawing.Size(146, 44);
+            this.btnCargarCarton.Size = new System.Drawing.Size(130, 35);
             this.btnCargarCarton.TabIndex = 13;
             this.btnCargarCarton.Text = "Cargar cartón";
             this.btnCargarCarton.UseVisualStyleBackColor = true;
@@ -272,10 +258,9 @@
             // 
             // btnGuardarCarton
             // 
-            this.btnGuardarCarton.Location = new System.Drawing.Point(1271, 275);
-            this.btnGuardarCarton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnGuardarCarton.Location = new System.Drawing.Point(1130, 220);
             this.btnGuardarCarton.Name = "btnGuardarCarton";
-            this.btnGuardarCarton.Size = new System.Drawing.Size(146, 44);
+            this.btnGuardarCarton.Size = new System.Drawing.Size(130, 35);
             this.btnGuardarCarton.TabIndex = 14;
             this.btnGuardarCarton.Text = "Guardar cartón";
             this.btnGuardarCarton.UseVisualStyleBackColor = true;
@@ -288,18 +273,17 @@
             this.lblEstadoRed.BackColor = System.Drawing.Color.Transparent;
             this.lblEstadoRed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblEstadoRed.ForeColor = System.Drawing.Color.White;
-            this.lblEstadoRed.Location = new System.Drawing.Point(1266, 350);
+            this.lblEstadoRed.Location = new System.Drawing.Point(1125, 280);
             this.lblEstadoRed.Name = "lblEstadoRed";
-            this.lblEstadoRed.Size = new System.Drawing.Size(170, 20);
+            this.lblEstadoRed.Size = new System.Drawing.Size(172, 20);
             this.lblEstadoRed.TabIndex = 9;
             this.lblEstadoRed.Text = "Red Local: Sin conexión";
             // 
             // btnCrearPartida
             // 
-            this.btnCrearPartida.Location = new System.Drawing.Point(1271, 400);
-            this.btnCrearPartida.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCrearPartida.Location = new System.Drawing.Point(1130, 320);
             this.btnCrearPartida.Name = "btnCrearPartida";
-            this.btnCrearPartida.Size = new System.Drawing.Size(146, 44);
+            this.btnCrearPartida.Size = new System.Drawing.Size(130, 35);
             this.btnCrearPartida.TabIndex = 16;
             this.btnCrearPartida.Text = "Crear Partida";
             this.btnCrearPartida.UseVisualStyleBackColor = true;
@@ -307,10 +291,9 @@
             // 
             // btnUnirsePartida
             // 
-            this.btnUnirsePartida.Location = new System.Drawing.Point(1429, 400);
-            this.btnUnirsePartida.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUnirsePartida.Location = new System.Drawing.Point(1270, 320);
             this.btnUnirsePartida.Name = "btnUnirsePartida";
-            this.btnUnirsePartida.Size = new System.Drawing.Size(146, 44);
+            this.btnUnirsePartida.Size = new System.Drawing.Size(130, 35);
             this.btnUnirsePartida.TabIndex = 17;
             this.btnUnirsePartida.Text = "Unirse";
             this.btnUnirsePartida.UseVisualStyleBackColor = true;
@@ -319,10 +302,9 @@
             // btnDesconectarRed
             // 
             this.btnDesconectarRed.Enabled = false;
-            this.btnDesconectarRed.Location = new System.Drawing.Point(1344, 456);
-            this.btnDesconectarRed.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDesconectarRed.Location = new System.Drawing.Point(1195, 365);
             this.btnDesconectarRed.Name = "btnDesconectarRed";
-            this.btnDesconectarRed.Size = new System.Drawing.Size(180, 44);
+            this.btnDesconectarRed.Size = new System.Drawing.Size(160, 35);
             this.btnDesconectarRed.TabIndex = 18;
             this.btnDesconectarRed.Text = "Desconectar Red";
             this.btnDesconectarRed.UseVisualStyleBackColor = true;
@@ -334,9 +316,9 @@
             this.lblTituloHistorial.BackColor = System.Drawing.Color.Transparent;
             this.lblTituloHistorial.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.lblTituloHistorial.ForeColor = System.Drawing.Color.White;
-            this.lblTituloHistorial.Location = new System.Drawing.Point(326, 700);
+            this.lblTituloHistorial.Location = new System.Drawing.Point(290, 639);
             this.lblTituloHistorial.Name = "lblTituloHistorial";
-            this.lblTituloHistorial.Size = new System.Drawing.Size(101, 30);
+            this.lblTituloHistorial.Size = new System.Drawing.Size(87, 25);
             this.lblTituloHistorial.TabIndex = 19;
             this.lblTituloHistorial.Text = "Historial";
             // 
@@ -344,34 +326,34 @@
             // 
             this.lstHistorial.FormattingEnabled = true;
             this.lstHistorial.ItemHeight = 16;
-            this.lstHistorial.Location = new System.Drawing.Point(304, 562);
+            this.lstHistorial.Location = new System.Drawing.Point(290, 674);
+            this.lstHistorial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstHistorial.Name = "lstHistorial";
-            this.lstHistorial.Size = new System.Drawing.Size(618, 124);
+            this.lstHistorial.Size = new System.Drawing.Size(550, 100);
             this.lstHistorial.TabIndex = 20;
             // 
             // lstChat
             // 
             this.lstChat.FormattingEnabled = true;
             this.lstChat.ItemHeight = 16;
-            this.lstChat.Location = new System.Drawing.Point(884, 562);
+            this.lstChat.Location = new System.Drawing.Point(900, 674);
+            this.lstChat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstChat.Name = "lstChat";
-            this.lstChat.Size = new System.Drawing.Size(483, 124);
+            this.lstChat.Size = new System.Drawing.Size(430, 100);
             this.lstChat.TabIndex = 21;
             // 
             // txtMensajeChat
             // 
-            this.txtMensajeChat.Location = new System.Drawing.Point(1012, 881);
-            this.txtMensajeChat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMensajeChat.Location = new System.Drawing.Point(900, 784);
             this.txtMensajeChat.Name = "txtMensajeChat";
-            this.txtMensajeChat.Size = new System.Drawing.Size(300, 22);
+            this.txtMensajeChat.Size = new System.Drawing.Size(267, 22);
             this.txtMensajeChat.TabIndex = 16;
             // 
             // btnEnviarChat
             // 
-            this.btnEnviarChat.Location = new System.Drawing.Point(1395, 875);
-            this.btnEnviarChat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEnviarChat.Location = new System.Drawing.Point(1240, 779);
             this.btnEnviarChat.Name = "btnEnviarChat";
-            this.btnEnviarChat.Size = new System.Drawing.Size(101, 44);
+            this.btnEnviarChat.Size = new System.Drawing.Size(90, 35);
             this.btnEnviarChat.TabIndex = 23;
             this.btnEnviarChat.Text = "Enviar";
             this.btnEnviarChat.UseVisualStyleBackColor = true;
@@ -379,10 +361,10 @@
             // 
             // FrmJuego
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::LoteriaMexicana.Properties.Resources.juego;
-            this.ClientSize = new System.Drawing.Size(1609, 950);
+            this.ClientSize = new System.Drawing.Size(1396, 830);
             this.Controls.Add(this.btnEnviarChat);
             this.Controls.Add(this.txtMensajeChat);
             this.Controls.Add(this.lstChat);
@@ -399,7 +381,6 @@
             this.Controls.Add(this.nudVelocidad);
             this.Controls.Add(this.lblVelocidad);
             this.Controls.Add(this.btnMenu);
-            this.Controls.Add(this.btnAuto);
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.btnAuto);
             this.Controls.Add(this.btnBuenas);
@@ -408,7 +389,6 @@
             this.Controls.Add(this.lblContador);
             this.Controls.Add(this.lblCartaActual);
             this.Controls.Add(this.picCartaActual);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmJuego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Lotería Mexicana - Juego";

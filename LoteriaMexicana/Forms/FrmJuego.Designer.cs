@@ -25,16 +25,6 @@
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
             this.lblCartaActual = new System.Windows.Forms.Label();
-            this.grpModoVictoria = new System.Windows.Forms.GroupBox();
-            this.btnCrearCarton = new System.Windows.Forms.Button();
-            this.chkHorizontal = new System.Windows.Forms.CheckBox();
-            this.chkVertical = new System.Windows.Forms.CheckBox();
-            this.chkDiagonal = new System.Windows.Forms.CheckBox();
-            this.chkLleno = new System.Windows.Forms.CheckBox();
-            this.lblVelocidad = new System.Windows.Forms.Label();
-            this.nudVelocidad = new System.Windows.Forms.NumericUpDown();
-            this.btnCargarCarton = new System.Windows.Forms.Button();
-            this.btnGuardarCarton = new System.Windows.Forms.Button();
             this.lblEstadoRed = new System.Windows.Forms.Label();
             this.btnCrearPartida = new System.Windows.Forms.Button();
             this.btnUnirsePartida = new System.Windows.Forms.Button();
@@ -45,8 +35,6 @@
             this.txtMensajeChat = new System.Windows.Forms.TextBox();
             this.btnEnviarChat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCartaActual)).BeginInit();
-            this.grpModoVictoria.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudVelocidad)).BeginInit();
             this.SuspendLayout();
             // 
             // timerAuto
@@ -144,146 +132,13 @@
             this.lblCartaActual.TabIndex = 7;
             this.lblCartaActual.Text = "Carta Actual";
             // 
-            // grpModoVictoria
-            // 
-            this.grpModoVictoria.BackColor = System.Drawing.Color.Transparent;
-            this.grpModoVictoria.Controls.Add(this.btnCrearCarton);
-            this.grpModoVictoria.Controls.Add(this.chkHorizontal);
-            this.grpModoVictoria.Controls.Add(this.chkVertical);
-            this.grpModoVictoria.Controls.Add(this.chkDiagonal);
-            this.grpModoVictoria.Controls.Add(this.chkLleno);
-            this.grpModoVictoria.Controls.Add(this.lblVelocidad);
-            this.grpModoVictoria.Controls.Add(this.nudVelocidad);
-            this.grpModoVictoria.Controls.Add(this.btnCargarCarton);
-            this.grpModoVictoria.Controls.Add(this.btnGuardarCarton);
-            this.grpModoVictoria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.grpModoVictoria.Location = new System.Drawing.Point(867, 12);
-            this.grpModoVictoria.Name = "grpModoVictoria";
-            this.grpModoVictoria.Size = new System.Drawing.Size(320, 413);
-            this.grpModoVictoria.TabIndex = 8;
-            this.grpModoVictoria.TabStop = false;
-            this.grpModoVictoria.Text = "Modo de victoria";
-            // 
-            // btnCrearCarton
-            // 
-            this.btnCrearCarton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCrearCarton.Location = new System.Drawing.Point(102, 311);
-            this.btnCrearCarton.Name = "btnCrearCarton";
-            this.btnCrearCarton.Size = new System.Drawing.Size(119, 35);
-            this.btnCrearCarton.TabIndex = 8;
-            this.btnCrearCarton.Text = "Crear cartón";
-            this.btnCrearCarton.UseVisualStyleBackColor = true;
-            this.btnCrearCarton.Click += new System.EventHandler(this.btnCrearCarton_Click);
-            // 
-            // chkHorizontal
-            // 
-            this.chkHorizontal.AutoSize = true;
-            this.chkHorizontal.Checked = true;
-            this.chkHorizontal.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkHorizontal.Location = new System.Drawing.Point(39, 54);
-            this.chkHorizontal.Name = "chkHorizontal";
-            this.chkHorizontal.Size = new System.Drawing.Size(147, 24);
-            this.chkHorizontal.TabIndex = 0;
-            this.chkHorizontal.Text = "Línea horizontal";
-            this.chkHorizontal.UseVisualStyleBackColor = true;
-            // 
-            // chkVertical
-            // 
-            this.chkVertical.AutoSize = true;
-            this.chkVertical.Checked = true;
-            this.chkVertical.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkVertical.Location = new System.Drawing.Point(39, 99);
-            this.chkVertical.Name = "chkVertical";
-            this.chkVertical.Size = new System.Drawing.Size(127, 24);
-            this.chkVertical.TabIndex = 1;
-            this.chkVertical.Text = "Línea vertical";
-            this.chkVertical.UseVisualStyleBackColor = true;
-            // 
-            // chkDiagonal
-            // 
-            this.chkDiagonal.AutoSize = true;
-            this.chkDiagonal.Checked = true;
-            this.chkDiagonal.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkDiagonal.Location = new System.Drawing.Point(39, 140);
-            this.chkDiagonal.Name = "chkDiagonal";
-            this.chkDiagonal.Size = new System.Drawing.Size(98, 24);
-            this.chkDiagonal.TabIndex = 2;
-            this.chkDiagonal.Text = "Diagonal";
-            this.chkDiagonal.UseVisualStyleBackColor = true;
-            // 
-            // chkLleno
-            // 
-            this.chkLleno.AutoSize = true;
-            this.chkLleno.Checked = true;
-            this.chkLleno.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkLleno.Location = new System.Drawing.Point(39, 180);
-            this.chkLleno.Name = "chkLleno";
-            this.chkLleno.Size = new System.Drawing.Size(120, 24);
-            this.chkLleno.TabIndex = 3;
-            this.chkLleno.Text = "Cartón lleno";
-            this.chkLleno.UseVisualStyleBackColor = true;
-            // 
-            // lblVelocidad
-            // 
-            this.lblVelocidad.AutoSize = true;
-            this.lblVelocidad.Location = new System.Drawing.Point(35, 222);
-            this.lblVelocidad.Name = "lblVelocidad";
-            this.lblVelocidad.Size = new System.Drawing.Size(123, 20);
-            this.lblVelocidad.TabIndex = 4;
-            this.lblVelocidad.Text = "Velocidad (seg):";
-            // 
-            // nudVelocidad
-            // 
-            this.nudVelocidad.Location = new System.Drawing.Point(39, 252);
-            this.nudVelocidad.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.nudVelocidad.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nudVelocidad.Name = "nudVelocidad";
-            this.nudVelocidad.Size = new System.Drawing.Size(120, 26);
-            this.nudVelocidad.TabIndex = 5;
-            this.nudVelocidad.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.nudVelocidad.ValueChanged += new System.EventHandler(this.nudVelocidad_ValueChanged);
-            // 
-            // btnCargarCarton
-            // 
-            this.btnCargarCarton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCargarCarton.Location = new System.Drawing.Point(39, 362);
-            this.btnCargarCarton.Name = "btnCargarCarton";
-            this.btnCargarCarton.Size = new System.Drawing.Size(120, 35);
-            this.btnCargarCarton.TabIndex = 6;
-            this.btnCargarCarton.Text = "Cargar cartón";
-            this.btnCargarCarton.UseVisualStyleBackColor = true;
-            this.btnCargarCarton.Click += new System.EventHandler(this.btnCargarCarton_Click);
-            // 
-            // btnGuardarCarton
-            // 
-            this.btnGuardarCarton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGuardarCarton.Location = new System.Drawing.Point(165, 362);
-            this.btnGuardarCarton.Name = "btnGuardarCarton";
-            this.btnGuardarCarton.Size = new System.Drawing.Size(130, 35);
-            this.btnGuardarCarton.TabIndex = 7;
-            this.btnGuardarCarton.Text = "Guardar cartón";
-            this.btnGuardarCarton.UseVisualStyleBackColor = true;
-            this.btnGuardarCarton.Click += new System.EventHandler(this.btnGuardarCarton_Click);
-            // 
             // lblEstadoRed
             // 
             this.lblEstadoRed.AutoSize = true;
             this.lblEstadoRed.BackColor = System.Drawing.Color.Transparent;
             this.lblEstadoRed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoRed.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblEstadoRed.Location = new System.Drawing.Point(930, 443);
+            this.lblEstadoRed.Location = new System.Drawing.Point(951, 479);
             this.lblEstadoRed.Name = "lblEstadoRed";
             this.lblEstadoRed.Size = new System.Drawing.Size(207, 25);
             this.lblEstadoRed.TabIndex = 9;
@@ -291,7 +146,7 @@
             // 
             // btnCrearPartida
             // 
-            this.btnCrearPartida.Location = new System.Drawing.Point(867, 471);
+            this.btnCrearPartida.Location = new System.Drawing.Point(873, 507);
             this.btnCrearPartida.Name = "btnCrearPartida";
             this.btnCrearPartida.Size = new System.Drawing.Size(120, 29);
             this.btnCrearPartida.TabIndex = 10;
@@ -301,7 +156,7 @@
             // 
             // btnUnirsePartida
             // 
-            this.btnUnirsePartida.Location = new System.Drawing.Point(1067, 473);
+            this.btnUnirsePartida.Location = new System.Drawing.Point(1076, 507);
             this.btnUnirsePartida.Name = "btnUnirsePartida";
             this.btnUnirsePartida.Size = new System.Drawing.Size(120, 27);
             this.btnUnirsePartida.TabIndex = 11;
@@ -312,7 +167,7 @@
             // btnDesconectarRed
             // 
             this.btnDesconectarRed.Enabled = false;
-            this.btnDesconectarRed.Location = new System.Drawing.Point(935, 506);
+            this.btnDesconectarRed.Location = new System.Drawing.Point(935, 540);
             this.btnDesconectarRed.Name = "btnDesconectarRed";
             this.btnDesconectarRed.Size = new System.Drawing.Size(175, 36);
             this.btnDesconectarRed.TabIndex = 12;
@@ -344,9 +199,9 @@
             // 
             this.lstChat.FormattingEnabled = true;
             this.lstChat.ItemHeight = 20;
-            this.lstChat.Location = new System.Drawing.Point(884, 562);
+            this.lstChat.Location = new System.Drawing.Point(884, 582);
             this.lstChat.Name = "lstChat";
-            this.lstChat.Size = new System.Drawing.Size(303, 84);
+            this.lstChat.Size = new System.Drawing.Size(303, 64);
             this.lstChat.TabIndex = 15;
             // 
             // txtMensajeChat
@@ -382,7 +237,6 @@
             this.Controls.Add(this.btnCrearPartida);
             this.Controls.Add(this.lblEstadoRed);
             this.Controls.Add(this.lblCartaActual);
-            this.Controls.Add(this.grpModoVictoria);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.btnAuto);
@@ -395,9 +249,6 @@
             this.Text = "Lotería Mexicana - Juego";
             this.Load += new System.EventHandler(this.FrmJuego_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picCartaActual)).EndInit();
-            this.grpModoVictoria.ResumeLayout(false);
-            this.grpModoVictoria.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudVelocidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -413,21 +264,11 @@
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Label lblCartaActual;
-        private System.Windows.Forms.GroupBox grpModoVictoria;
-        private System.Windows.Forms.CheckBox chkHorizontal;
-        private System.Windows.Forms.CheckBox chkVertical;
-        private System.Windows.Forms.CheckBox chkDiagonal;
-        private System.Windows.Forms.CheckBox chkLleno;
-        private System.Windows.Forms.Label lblVelocidad;
-        private System.Windows.Forms.NumericUpDown nudVelocidad;
-        private System.Windows.Forms.Button btnCargarCarton;
-        private System.Windows.Forms.Button btnGuardarCarton;
         private System.Windows.Forms.Label lblEstadoRed;
         private System.Windows.Forms.Button btnCrearPartida;
         private System.Windows.Forms.Button btnUnirsePartida;
         private System.Windows.Forms.Button btnDesconectarRed;
         private System.Windows.Forms.Label lblTituloHistorial;
-        private System.Windows.Forms.Button btnCrearCarton;
         private System.Windows.Forms.ListBox lstHistorial;
         private System.Windows.Forms.ListBox lstChat;
         private System.Windows.Forms.TextBox txtMensajeChat;
